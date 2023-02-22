@@ -38,6 +38,10 @@
     text-align: center;
 }
 
+.p-s {
+    padding: 1.25rem;
+}
+
 .pt-s {
     padding-top: 1.25rem;
 }
@@ -52,5 +56,30 @@
     font-size: 17px;
     border-radius: 0.3125rem;
     border: 0;
+    border: 1px solid #000;
+}
+
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.width-auto {
+    width: auto;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.border {
     border: 1px solid #000;
 }

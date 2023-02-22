@@ -26,10 +26,16 @@
                 <div class="col d-flex flex-column">
                     <label for="name-lastname" class="txt-al-center purple">Nome e Cognome</label>
                     <input type="text" class="ms-input txt-al-center" id="name-lastname">
+                    <div class="error-handler" id="error-name">
+
+                    </div>
                 </div>
                 <div class="col d-flex flex-column">
                     <label for="km-to-go" class="txt-al-center purple">Km da percorrere</label>
                     <input type="text" class="ms-input txt-al-center" id="km-to-go">
+                    <div class="error-handler" id="error-km">
+                        
+                    </div>
                 </div>
                 <div class="col d-flex flex-column">
                     <label for="user-age" class="txt-al-center purple">Fascia d'età</label>
@@ -39,6 +45,9 @@
                         <option value="2">Maggiorenne</option>
                         <option value="3">Over 65</option>
                     </select>
+                    <div class="error-handler" id="error-age">
+                        
+                    </div>
                 </div>
             </div>
             <!-- Row -->
@@ -56,6 +65,50 @@
             <!-- /Row -->
         </form>
         <!-- /Form -->
+        <!-- Section -->
+        <section>
+            <h1 class="white mb-0 txt-al-center">IL TUO BIGLIETTO</h1>
+            <div class="ticket-body p-s">
+                <div class="row">
+                    <div class="col p-0">
+                        <h3>DETTAGLI PASSEGERO</h3>
+                    </div>
+                </div>
+                <div class="row d-flex ticket-info border">
+                    <div class="col flex-grow-1">
+                        <div class="info">
+                            <h3>NOME PASSEGERO</h3>
+                            <h4 id="name-element">Jon Snow</h4>
+                        </div>
+                    </div>
+                    <div class="col width-auto">
+                        <div class="info details">
+                            <h5>Offerta</h5>
+                            <small>Biglietto Standard</small>
+                        </div>
+                    </div>
+                    <div class="col width-auto">
+                        <div class="info details">
+                            <h5>Carrozza</h5>
+                            <small>5</small>
+                        </div>
+                    </div>
+                    <div class="col width-auto">
+                        <div class="info details">
+                            <h5>Codice CP</h5>
+                            <small>92911</small>
+                        </div>
+                    </div>
+                    <div class="col width-auto">
+                        <div class="info details">
+                            <h5>Costo Biglietto</h5>
+                            <small id="price">2.10€</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Section -->
     </main>
     <!-- /Main -->
 

@@ -29,7 +29,37 @@ form {
     background-color: #fff;
 }
 
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ticket-body {
+    background-color: #fff;
+}
+
 .col {
     padding: 0 1.25rem;
 }
+
+.ticket-info > .col{
+    padding: 0;
+}
+
+.ticket-info > .col:first-child{
+    border-right: 1px solid #000;
+    background-color: var(--ticket-grey);
+}
+
+
+.info {
+    padding: 1.25rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+}
+
 
