@@ -1,0 +1,56 @@
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.purple {
+    color: var(--background-color);
+}
+
+.black {
+    color: var(--color-dark);
+}
+
+.white {
+    color: var(--color-light);
+}
+
+.ms-input {
+    border: 0;
+    border: 1px solid var(--background-color);
+    border-radius: 0.3125rem;
+    padding:  0.3125rem;
+    font-family: inherit;
+}
+
+.txt-al-center {
+    text-align: center;
+}
+
+.pt-s {
+    padding-top: 1.25rem;
+}
+
+.pt-m {
+    padding-top: 3.125rem;
+}
+
+.ms-btn {
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: 17px;
+    border-radius: 0.3125rem;
+    border: 0;
+    border: 1px solid #000;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglietti Treno</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- /Google Font -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /CSS -->
+</head>
+<body>
+
+    <!-- Main -->
+    <main>
+        <h1 class="txt-al-center white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <!-- Form -->
+        <form>
+            <!-- Row -->
+            <div class="row d-flex justify-center">
+                <div class="col d-flex flex-column">
+                    <label for="name-lastname" class="txt-al-center purple">Nome e Cognome</label>
+                    <input type="text" class="ms-input txt-al-center" id="name-lastname">
+                </div>
+                <div class="col d-flex flex-column">
+                    <label for="km-to-go" class="txt-al-center purple">Km da percorrere</label>
+                    <input type="text" class="ms-input txt-al-center" id="km-to-go">
+                </div>
+                <div class="col d-flex flex-column">
+                    <label for="user-age" class="txt-al-center purple">Fascia d'età</label>
+                    <select name="age" id="user-age" class="ms-input txt-al-center">
+                        <option value="0" selected disabled>Seleziona fascia d'età</option>
+                        <option value="1">Minorenne</option>
+                        <option value="2">Maggiorenne</option>
+                        <option value="3">Over 65</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Row -->
+            <!-- Row -->
+            <div class="row d-flex justify-center pt-s">
+                <div class="col">
+                    <button type="button" class="ms-btn purple" id="generate-btn">
+                        Genera
+                    </button>
+                    <button type="reset" class="ms-btn purple" id="reset-btn">
+                        Annulla
+                    </button>
+                </div>
+            </div>
+            <!-- /Row -->
+        </form>
+        <!-- /Form -->
+    </main>
+    <!-- /Main -->
+
+
+    <!-- Script -->
+    <script src="js/main.js"></script>
+    <!-- /Script -->
+</body>
+</html>

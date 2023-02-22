@@ -1,0 +1,35 @@
+@import url(variables.css);
+@import url(utilities.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 3.125rem 0;
+}
+
+label {
+    margin-bottom: 0.625rem;
+}
+
+form {
+    padding: 3.125rem 0;
+    width: 80%;
+    margin: auto;
+    border-radius: 0.625rem;
+    background-color: #fff;
+}
+
+.col {
+    padding: 0 1.25rem;
+}
+
