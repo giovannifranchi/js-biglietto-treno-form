@@ -4,9 +4,13 @@ const kmToGo = document.getElementById('km-to-go');
 const errorKM = document.getElementById('error-km');
 const userAge = document.getElementById('user-age');
 const errorAge = document.getElementById('error-age');
+const ticketElement = document.getElementById('ticket');
+const codeCp = document.getElementById('cp-code');
+const carriage = document.getElementById('carriage');
 const nameElement = document.getElementById('name-element');
 const priceElement = document.getElementById('price');
 const calculateBtn = document.getElementById('generate-btn');
+const resetBtn = document.getElementById('reset-btn');
 const pricePerkm = 0.21;
 const underageDiscount = 20;
 const overageDiscount = 40;
@@ -40,8 +44,17 @@ calculateBtn.addEventListener('click', ()=>{
         }
         priceElement.innerHTML = `${price.toFixed(2)}€`;
         nameElement.innerHTML = userName.value;
+        carriage.innerHTML = Math.floor(Math.random()* (10 - 1) + 1);
+        codeCp.innerHTML = Math.floor(Math.random() * (100000 - 1) + 1);
+        ticketElement.style.display = 'block';
     }
+});
+
+
+resetBtn.addEventListener('click', ()=>{
     userName.value = '';
     kmToGo.value = '';
     userAge.value = '0';
+    ticketElement.style.display = 'none';
 })
+

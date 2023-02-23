@@ -62,4 +62,16 @@ section {
     gap: 40px 0;
 }
 
+.error-handler {
+    color: red;
+    font-size: 0.75rem;
+    margin-top: 0.3125rem;
+}
+
+
+
+#ticket {
+    display: none;
+}
+
 
